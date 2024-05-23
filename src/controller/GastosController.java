@@ -9,7 +9,7 @@ public class GastosController {
 		String driver = "com.mysql.cj.jdbc.Driver";
 		String url = "jdbc:mysql://localhost:3306/gastos?characterEncoding=utf-8";
 		String user = "root";
-		String password = "Rdelt@79";
+		String password = "123456";
 		
 		try {
 			Class.forName(driver);

@@ -88,16 +88,16 @@ public class ControleGastos extends javax.swing.JFrame {
         txtDescricao.setText(tblRegistros.getModel()
                 .getValueAt(setar, 1).toString());
         
-        cmbMes.setSelectedItem(tblRegistros.getModel()
+         txtValor.setText(tblRegistros.getModel()
                 .getValueAt(setar, 2).toString());
-        
-        txtAno.setText(tblRegistros.getModel()
+         
+          cmbTipo.setSelectedItem(tblRegistros.getModel()
                 .getValueAt(setar, 3).toString());
         
-        cmbTipo.setSelectedItem(tblRegistros.getModel()
+        cmbMes.setSelectedItem(tblRegistros.getModel()
                 .getValueAt(setar, 4).toString());
         
-        txtValor.setText(tblRegistros.getModel()
+        txtAno.setText(tblRegistros.getModel()
                 .getValueAt(setar, 5).toString());
         
         btnSalvar.setEnabled(false);
