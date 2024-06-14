@@ -65,10 +65,6 @@
 				</textElement>
 				<text><![CDATA[Relatório de Gastos]]></text>
 			</staticText>
-			<image>
-				<reportElement x="30" y="14" width="70" height="60" uuid="0a1420a0-321b-4c38-bc72-769003b3f1f6"/>
-				<imageExpression><![CDATA["C:\\Estudo\\git\\ControleGastos\\src\\icons\\spend-money.png"]]></imageExpression>
-			</image>
 		</band>
 	</title>
 	<pageHeader>
